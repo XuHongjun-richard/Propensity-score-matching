@@ -1,23 +1,21 @@
 
 `pymatch`
 =====
+the original package is https://github.com/benmiroglio/pymatch
 
-Matching techniques for observational studies. Inspired by and adapted from Jasjeet Singh Sekhon's [Matching](https://cran.r-project.org/web/packages/Matching/Matching.pdf) package in R. I wrote an adaptation in Python that is better suited for my work at Mozilla which incorporates:
-
-* Integration with Jupyter Notebooks (we use Jupyter + Pyspark)
-* Additional Non-Parametric Tests / Plotting Functionality to assess balance.
-* A more modular, user-specified matching process
-
-This package was used to support [this research project](https://dl.acm.org/citation.cfm?id=3178876.3186162).
+I just make some changes in the Matcher.py file and
+   fixed the possible fit error
+    fixed the possible drawing error
+    fixed the possible error from statsmodel because of the distribution of labels in chi-square caclulation step
 
 # Installation
-
-Install through pip!
-
+download the folder and open terminal from the folder's location
 ```bash
-$ pip install pymatch
+$ python setup.py build
+$ python setup.py install
 ```
 
+the following are all the same as the content from https://github.com/benmiroglio/pymatch
 # 
 
 The best way to get familiar with the package is to work through an example. The example below leaves out much of the theory behind matching and focuses on the application within `pymatch`. If interested, Sekhon gives a nice overview in his [Introduction to the Matching package in R](http://sekhon.berkeley.edu/papers/MatchingJSS.pdf).
