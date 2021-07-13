@@ -4,9 +4,10 @@
 the original package is https://github.com/benmiroglio/pymatch
 
 I just make some changes in the Matcher.py file and
-   fixed the possible fit error
-    fixed the possible drawing error
-    fixed the possible error from statsmodel because of the distribution of labels in chi-square caclulation step
+
+fixed the possible fit error
+fixed the possible drawing error
+fixed the possible error from statsmodel because of the distribution of labels in chi-square caclulation step
 
 # Installation
 download the folder and open terminal from the folder's location
