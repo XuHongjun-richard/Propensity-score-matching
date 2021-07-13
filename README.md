@@ -5,9 +5,9 @@ the original package is https://github.com/benmiroglio/pymatch
 
 I just make some changes in the Matcher.py file and
 
-* fixed the possible fit error
-* fixed the possible drawing error
-* fixed the possible error from statsmodel because of the distribution of labels in chi-square caclulation step
+* fixed the possible predict_scores error
+* fixed the error that compare_continuous doesn't work, and compare_categorical get all predictors
+* fixed the possible error from statsmodel in chi-square caclulation step because of the distribution of labels 
 
 # Installation
 download the folder and open terminal from the folder's location
